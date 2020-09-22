@@ -8,7 +8,7 @@ WORKDIR /src
 
 RUN apt-get update && \
     apt-get install -y git php curl unzip wget && \
-    git clone https://github.com/msalerno2001/blackeye.git
+    git clone https://github.com/Thanatos995/blackeye.git
 
 WORKDIR /src/blackeye
 
